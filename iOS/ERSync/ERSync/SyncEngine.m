@@ -8,8 +8,8 @@
 
 #import "SyncEngine.h"
 
-#import "GVCFoundation.h"
-#import "GVCCoreData.h"
+//#import "GVCFoundation.h"
+//#import "GVCCoreData.h"
 
 #import "SyncEntity.h"
 #import "SyncChangeset.h"

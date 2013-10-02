@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
+   LastUpgradeVersion = "0500"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -13,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0586BB731593F96A003716CC"
+               BlueprintIdentifier = "41E38EE617FC6BC0003F92F6"
                BuildableName = "libERSync.a"
                BlueprintName = "ERSync"
                ReferencedContainer = "container:ERSync.xcodeproj">
@@ -27,6 +28,16 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "41E38EF617FC6BC0003F92F6"
+               BuildableName = "ERSyncTests.xctest"
+               BlueprintName = "ERSyncTests"
+               ReferencedContainer = "container:ERSync.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

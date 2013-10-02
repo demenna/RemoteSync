@@ -11,24 +11,24 @@
 #import "SyncParseAndLoadOperation.h"
 #import "SyncResetLocalDatabaseOperation.h"
 
-/* 
- * mo 
+/*
+ * mo
  */
 #import "SyncChangeValue.h"
 #import "SyncChangeset.h"
 #import "SyncEntity.h"
 #import "SyncPrincipal.h"
 
-/* 
- * mo _ 
+/*
+ * mo _
  */
 #import "_SyncChangeValue.h"
 #import "_SyncChangeset.h"
 #import "_SyncEntity.h"
 #import "_SyncPrincipal.h"
 
-/* 
- * xml 
+/*
+ * xml
  */
 #import "SyncXMLProperty.h"
 #import "SyncXMLRecord.h"

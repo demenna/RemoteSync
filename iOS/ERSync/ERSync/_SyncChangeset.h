@@ -2,7 +2,7 @@
 // Make changes to SyncChangeset.h instead.
 
 #import <CoreData/CoreData.h>
-#import "GVCFoundation.h"
+// #import "GVCFoundation.h"
 
 #import "GVCManagedObject.h"
 
