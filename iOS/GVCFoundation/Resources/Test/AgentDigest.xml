@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<digester>
+	<ruleset pattern="^agents">
+		<rule class_type="GVCXMLDigesterCreateObjectRule" classname="TestAgentsCollection" />
+		<rule class_type="GVCXMLDigesterAttributeMapRule">
+			<map attributeName="oidRoot">oid</map>
+		</rule>
+	</ruleset>
+
+	<ruleset pattern="^agents/agent">
+		<rule class_type="GVCXMLDigesterCreateObjectRule" classname="TestAgent" />
+		<rule class_type="GVCXMLDigesterAttributeMapRule">
+			<map attributeName="id">identifier</map>
+		</rule>
+		<rule class_type="GVCXMLDigesterSetChildRule" propertyName="agent" />
+	</ruleset>
+	
+	<ruleset pattern="^agents/agent/agentName">
+		<rule class_type="GVCXMLDigesterSetPropertyRule" propertyName="name" />
+	</ruleset>
+
+	<ruleset pattern="^agents/agent/agentCode">
+		<rule class_type="GVCXMLDigesterSetPropertyRule" propertyName="code" />
+	</ruleset>
+
+	<ruleset pattern="^agents/agent/agentOid">
+		<rule class_type="GVCXMLDigesterSetPropertyRule" propertyName="oid" />
+	</ruleset>
+</digester>

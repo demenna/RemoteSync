@@ -1,0 +1,9 @@
+#import "<$managedObjectClassName$>.h"
+#import "GVCFoundation.h"
+#import "GVCCoreData.h"
+
+@implementation <$managedObjectClassName$>
+
+// Custom logic goes here.
+
+@end
