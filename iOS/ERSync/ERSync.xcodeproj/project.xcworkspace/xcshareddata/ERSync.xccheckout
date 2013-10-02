@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CEB32E73-D6B8-4D00-8D0F-2235BF5D1758</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ERSync</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D06A8727-636A-4E2C-AAC9-2F0B48212947</key>
+		<string>https://github.com/demenna/RemoteSync.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOS/ERSync/ERSync.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D06A8727-636A-4E2C-AAC9-2F0B48212947</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/demenna/RemoteSync.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D06A8727-636A-4E2C-AAC9-2F0B48212947</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D06A8727-636A-4E2C-AAC9-2F0B48212947</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RemoteSync</string>
+		</dict>
+	</array>
+</dict>
+</plist>

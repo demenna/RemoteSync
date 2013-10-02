@@ -1,4 +1,4 @@
-// $LastChangedRevision: 5773 $ DO NOT EDIT.  Make changes to User.java instead.
+// $LastChangedRevision$ DO NOT EDIT.  Make changes to User.java instead.
 package net.global_village.notes.model.entities;
 
 import com.webobjects.eoaccess.*;

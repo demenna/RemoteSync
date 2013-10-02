@@ -1,4 +1,4 @@
-// $LastChangedRevision: 5773 $ DO NOT EDIT.  Make changes to ERSyncChangeToOne.java instead.
+// $LastChangedRevision$ DO NOT EDIT.  Make changes to ERSyncChangeToOne.java instead.
 package er.sync.eo;
 
 import com.webobjects.eoaccess.*;
