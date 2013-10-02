@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11E53" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="5">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12E55" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="5">
     <dependencies>
-        <deployment defaultVersion="1296" identifier="iOS"/>
-        <development defaultVersion="4200" identifier="xcode"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1181"/>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
         <scene sceneID="14">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="13" sceneMemberID="firstResponder"/>
                 <navigationController id="3" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="6">
                         <autoresizingMask key="autoresizingMask"/>
@@ -18,20 +16,20 @@
                         <segue destination="19" kind="relationship" relationship="rootViewController" id="25"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="13" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="520" y="-926"/>
         </scene>
         <!--Detail View Controller - Detail-->
         <scene sceneID="16">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="15" sceneMemberID="firstResponder"/>
-                <viewController storyboardIdentifier="" title="Detail" id="4" customClass="GVCDetailViewController" sceneMemberID="viewController">
+                <viewController title="Detail" id="4" customClass="GVCDetailViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="26">
-                        <rect key="frame" x="0.0" y="64" width="703" height="704"/>
+                        <rect key="frame" x="0.0" y="0.0" width="703" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="ctK-Pf-tEc">
-                                <rect key="frame" x="117" y="20" width="469" height="365"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="ctK-Pf-tEc">
+                                <rect key="frame" x="0.0" y="736" width="0.0" height="0.0"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <connections>
@@ -39,8 +37,8 @@
                                     <outlet property="delegate" destination="oQb-qk-HFH" id="a7D-jp-zpt"/>
                                 </connections>
                             </tableView>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" allowsSelection="NO" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="iOf-0A-DeL">
-                                <rect key="frame" x="20" y="393" width="663" height="267"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="iOf-0A-DeL">
+                                <rect key="frame" x="0.0" y="736" width="0.0" height="0.0"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
@@ -49,7 +47,7 @@
                                 </connections>
                             </tableView>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="bor-9K-LHQ">
-                                <rect key="frame" x="0.0" y="660" width="703" height="44"/>
+                                <rect key="frame" x="0.0" y="724" width="703" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
                                     <barButtonItem title="Reset" id="hzy-BK-1fb">
@@ -95,6 +93,7 @@
                         <outlet property="syncStatus" destination="KH8-Sb-izh" id="oL1-AD-RWW"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="15" sceneMemberID="firstResponder"/>
                 <customObject id="oQb-qk-HFH" customClass="NoteEditTableViewController">
                     <connections>
                         <outlet property="callbackDelegate" destination="4" id="MIP-25-Alq"/>
@@ -112,9 +111,8 @@
         <!--Sync Account Table View Controller-->
         <scene sceneID="SDJ-xX-CED">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="KUu-X4-ync" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController modalPresentationStyle="formSheet" id="Hi4-dE-HOq" customClass="SyncAccountTableViewController" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="ax5-w5-EhC">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="ax5-w5-EhC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -128,32 +126,32 @@
                         <outlet property="tableView" destination="ax5-w5-EhC" id="GKS-GV-MJE"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KUu-X4-ync" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1370" y="-321"/>
         </scene>
         <!--Split View Controller-->
         <scene sceneID="18">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="17" sceneMemberID="firstResponder"/>
                 <splitViewController id="5" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackTranslucent"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
                         <segue destination="3" kind="relationship" relationship="masterViewController" id="9"/>
                         <segue destination="42" kind="relationship" relationship="detailViewController" id="51"/>
                     </connections>
                 </splitViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="17" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-747" y="-794"/>
         </scene>
         <!--Master View Controller - Master-->
         <scene sceneID="24">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="23" sceneMemberID="firstResponder"/>
-                <tableViewController storyboardIdentifier="" title="Master" clearsSelectionOnViewWillAppear="NO" id="19" customClass="GVCMasterViewController" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="20">
-                        <rect key="frame" x="0.0" y="64" width="320" height="704"/>
+                <tableViewController title="Master" clearsSelectionOnViewWillAppear="NO" id="19" customClass="GVCMasterViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="20">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -161,7 +159,7 @@
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="tIi-5l-S0i" detailTextLabel="xjZ-tQ-5oe" style="IBUITableViewCellStyleValue2" id="ZSw-0O-9Pw">
                                 <rect key="frame" x="0.0" y="34" width="320" height="46"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ZSw-0O-9Pw" id="gKK-DZ-ajg">
                                     <rect key="frame" x="10" y="1" width="300" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
@@ -180,8 +178,7 @@
                                             <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </label>
                                     </subviews>
-                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </view>
+                                </tableViewCellContentView>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableViewCell>
                         </prototypes>
@@ -193,13 +190,13 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Master" id="40"/>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="23" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="987" y="-926"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="50">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="49" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController id="42" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="43">
                         <autoresizingMask key="autoresizingMask"/>
@@ -208,52 +205,13 @@
                         <segue destination="4" kind="relationship" relationship="rootViewController" id="52"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="49" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-366" y="248"/>
         </scene>
     </scenes>
-    <classes>
-        <class className="GVCDetailViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/GVCDetailViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="resetLocal:"/>
-                <relationship kind="outlet" name="noteEditor" candidateClass="NoteEditTableViewController"/>
-                <relationship kind="outlet" name="syncStatus" candidateClass="SyncStatusTableViewController"/>
-            </relationships>
-        </class>
-        <class className="GVCMasterViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/GVCMasterViewController.h"/>
-        </class>
-        <class className="GVCUIViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/GVCUIViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="dismissModalViewController:"/>
-                <relationship kind="outlet" name="callbackDelegate"/>
-            </relationships>
-        </class>
-        <class className="GVCUIViewWithTableController" superclassName="GVCUIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/GVCUIViewWithTableController.h"/>
-            <relationships>
-                <relationship kind="action" name="reload:"/>
-                <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
-            </relationships>
-        </class>
-        <class className="NoteEditTableViewController" superclassName="GVCUIViewWithTableController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NoteEditTableViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="cancelAction:"/>
-                <relationship kind="action" name="saveAction:"/>
-            </relationships>
-        </class>
-        <class className="SyncAccountTableViewController" superclassName="GVCUIViewWithTableController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SyncAccountTableViewController.h"/>
-        </class>
-        <class className="SyncStatusTableViewController" superclassName="GVCUIViewWithTableController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SyncStatusTableViewController.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
-        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
+        <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation" orientation="landscapeRight"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>

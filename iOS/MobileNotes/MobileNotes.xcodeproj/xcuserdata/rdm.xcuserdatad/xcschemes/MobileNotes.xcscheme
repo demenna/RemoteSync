@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
+   LastUpgradeVersion = "0500"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -13,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "057CF94015940F4F00765A65"
+               BlueprintIdentifier = "4174DCD817FC747D00E357BB"
                BuildableName = "MobileNotes.app"
                BlueprintName = "MobileNotes"
                ReferencedContainer = "container:MobileNotes.xcodeproj">
@@ -27,11 +28,21 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4174DCF817FC747D00E357BB"
+               BuildableName = "MobileNotesTests.xctest"
+               BlueprintName = "MobileNotesTests"
+               ReferencedContainer = "container:MobileNotes.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "057CF94015940F4F00765A65"
+            BlueprintIdentifier = "4174DCD817FC747D00E357BB"
             BuildableName = "MobileNotes.app"
             BlueprintName = "MobileNotes"
             ReferencedContainer = "container:MobileNotes.xcodeproj">
@@ -50,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "057CF94015940F4F00765A65"
+            BlueprintIdentifier = "4174DCD817FC747D00E357BB"
             BuildableName = "MobileNotes.app"
             BlueprintName = "MobileNotes"
             ReferencedContainer = "container:MobileNotes.xcodeproj">
@@ -68,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "057CF94015940F4F00765A65"
+            BlueprintIdentifier = "4174DCD817FC747D00E357BB"
             BuildableName = "MobileNotes.app"
             BlueprintName = "MobileNotes"
             ReferencedContainer = "container:MobileNotes.xcodeproj">
